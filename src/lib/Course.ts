@@ -7,12 +7,7 @@ interface Config {
 }
 
 export type DateFormat =
-	| 'DD/MM/YYYY'
-	| 'MM/DD/YYYY'
-	| 'YYYY/MM/DD'
-	| 'YYYY/DD/MM'
-	| 'MM/YYYY/DD'
-	| 'DD/YYYY/MM';
+	'DD/MM/YYYY' | 'MM/DD/YYYY' | 'YYYY/MM/DD' | 'YYYY/DD/MM' | 'MM/YYYY/DD' | 'DD/YYYY/MM';
 
 type NullableDate = Date | null;
 
